@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_106e2013ff4941035b27dc03c94d8b97807c29fe.jar" />
+    </item>
+    <item
+        jar="/home/sunny/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/library-2.4.0_a43784c64fe164dc2c1cd879beebfaddeea05537.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_79ca0a81d1fae611d9a0271fc955d1f381a270cd.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.2.32/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.ToxicBakery.viewpager.transforms-view-pager-transforms-1.2.32_c939b9d3cfe162d78a10142841898266ea257187.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/org.lucasr.twowayview/twowayview/0.1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a2a997b75e4c94dac7051557be6b95a06566291">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/org.lucasr.twowayview-twowayview-0.1.4_ae93de89a12c99df3381765b412729b478c2315b.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.eftimoff/android-pathview/1.0.6/jars/libs/androidsvg-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0cb3453e18fffeb053e9b7f052af3dcec9f75b4">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/androidsvg-1.2.1_1f591966d56a5a8724a614b57c4eb2a63331dbbc.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.1.0_fd5313bf22c30b85dde02d618b5d4f670efb39d0.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.github.flavienlaurent.datetimepicker/library/0.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2fc859b7abb78d29169f6a582b45cbe1f3f1a4cc">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.github.flavienlaurent.datetimepicker-library-0.0.2_5207cd063217f4cb4f156ddc09367c472941d438.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/libs/twitter4j-core-4.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="34138fe734b03ae6e9ef978b41359b5fb6467047">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.1_cf7a0cf50987bdf083aa40b501f9a51ffd232759.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.github.traex.rippleeffect-library-1.3_2e989881b78ad7ca73623d34f8e52bcac617d041.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_1c9227bd41ce6ae4813123a30417c3ec6194fb68.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.1.0_8aa66c826a0ab6fa0a96549cd6a8aad2c0167f76.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/ch.acra/acra/4.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d03cbe00a6703cfa62ae868707af59d41aff2140">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/ch.acra-acra-4.9.0_d2ab085a1ed27ed9d10a52db95392de1631a759c.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-22.2.0_47f9818b5cd24bb1699b103e313ae38b87bc66a6.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.github.rey5137/material/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0040be6592cbfbb19a2c1e90a759278795ed2280">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.github.rey5137-material-1.2.1_eee6c014fb36d71374d8d6728f833732d54ae499.jar" />
+    </item>
+    <item
+        jar="/home/sunny/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.5.5/5442d5e05808145434b750c9f8a0c3f537383c5a/android-activation-1.5.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/android-activation-1.5.5_d3b206b751c79a5aea6f36e77e28ad43986fe427.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_38b3eb3dbc3358eee6a6a8b415127c963d2d3304.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.1.0_2fda378e9210cafd7ca689ba98fbe2912e963e00.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_55873c3dc71537cca1b33f4556f12039e81e098e.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.eftimoff/android-pathview/1.0.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b90040ba91530dc8f6282a94306ecb9f3a1339ee">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.eftimoff-android-pathview-1.0.6_a3fd3bcba29d3d1bbdbb41853e7571514df59ce6.jar" />
+    </item>
+    <item
+        jar="/home/sunny/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_692b2723730178b9fb22ffb28ad94899d492b0f0.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.1.0_cff10e1d6587d9ae3b882a1ce5d5c17bc0732553.jar" />
+    </item>
+    <item
+        jar="/home/sunny/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-mail/1.5.5/53a2f927b235acb565dbe9314ececfb7e6d43020/android-mail-1.5.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="53a2f927b235acb565dbe9314ececfb7e6d43020">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/android-mail-1.5.5_7f9e897ee39bb228a7111aa628889476fa435414.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_f09c6aa0c5788b4df8a2958f27023e0b8d897836.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.1.0_c708153665c9221f685641d4673a5f7621786eaa.jar" />
+    </item>
+    <item
+        jar="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.1.0_d7f233a55c7d29a446ca69dc592246d363c78383.jar" />
+    </item>
+    <item
+        jar="/home/sunny/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/sunny/AndroidStudioProjects/TourMate/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_087d95dc7873f47a50d24eccc1578e00b7097267.jar" />
+    </item>
+
+</items>

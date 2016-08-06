@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "805564056149",
+    "project_id": "travel-guide-997eb"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805564056149:android:209cf9dc306a8135",
+        "android_client_info": {
+          "package_name": "tie.hackathon.travelguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZS2Kku5yoI9UDWYpu_b-JKir9KJD8D24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-82102496-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
