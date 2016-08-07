@@ -2,7 +2,9 @@ package tie.hackathon.travelguide;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
@@ -12,10 +14,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import Util.Constants;
+
 
 public class plan_journey_fragment extends Fragment implements View.OnClickListener {
 
 
+    SharedPreferences s ;
     static Activity activity;
 
     public plan_journey_fragment() {
@@ -45,6 +50,7 @@ public class plan_journey_fragment extends Fragment implements View.OnClickListe
         shop.setOnClickListener(this);
         city.setOnClickListener(this);
 
+        s = PreferenceManager.getDefaultSharedPreferences(activity);
 
         Log.e("vds","vdsvsd");
 
@@ -61,38 +67,42 @@ public class plan_journey_fragment extends Fragment implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+
         Intent i;
-
-
         Log.e("click","fv");
-        switch (view.getId()) {
 
-
-            case R.id.checklist:
-                i = new Intent(activity, CheckList.class);
-                startActivity(i);
-                break;
-
-            case R.id.vehicle:
-                i = new Intent(activity, Select_ModeOfTransport.class);
-                startActivity(i);
-                break;
-
-            case R.id.city:
-                i = new Intent(activity, CityInfo.class);
-                startActivity(i);
-                break;
-
-            case R.id.shopping:
-                i = new Intent(activity, Shopping_currentcity.class);
-                startActivity(i);
-                break;
-
-            case R.id.accomo:
-                i = new Intent(activity, Hotels.class);
-                startActivity(i);
-                break;
+        if (s.getString(Constants.DESTINATION_CITY, null) == null) {
+            i = new Intent(activity,SelectCity.class);
+            startActivity(i);
         }
+        else {
+            switch (view.getId()) {
 
+                case R.id.checklist:
+                    i = new Intent(activity, CheckList.class);
+                    startActivity(i);
+                    break;
+
+                case R.id.vehicle:
+                    i = new Intent(activity, Select_ModeOfTransport.class);
+                    startActivity(i);
+                    break;
+
+                case R.id.city:
+                    i = new Intent(activity, CityInfo.class);
+                    startActivity(i);
+                    break;
+
+                case R.id.shopping:
+                    i = new Intent(activity, Shopping_currentcity.class);
+                    startActivity(i);
+                    break;
+
+                case R.id.accomo:
+                    i = new Intent(activity, Hotels.class);
+                    startActivity(i);
+                    break;
+            }
+        }
     }
 }

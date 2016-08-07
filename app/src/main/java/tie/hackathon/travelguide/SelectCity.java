@@ -80,7 +80,7 @@ public class SelectCity extends AppCompatActivity {
                     e.putString(Constants.SOURCE_CITY_LON, lon.get(sposition));
                     startService(new Intent(SelectCity.this, LocationService.class));
 
-                    e.commit();
+                    e.apply();
                     finish();
                 }
             }

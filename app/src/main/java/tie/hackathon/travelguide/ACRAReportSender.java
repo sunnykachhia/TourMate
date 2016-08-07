@@ -4,7 +4,9 @@ package tie.hackathon.travelguide;
  * Created by sunny on 6/8/16.
  */
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.provider.SyncStateContract;
 import android.util.Log;
 
 import org.acra.ReportField;
@@ -12,8 +14,11 @@ import org.acra.collector.CrashReportData;
 import org.acra.sender.ReportSender;
 import org.acra.sender.ReportSenderException;
 
+import Util.Constants;
+
 public class ACRAReportSender implements ReportSender {
 
+    SharedPreferences s ;
     private String emailUsername;
     private String emailPassword;
 
@@ -27,6 +32,8 @@ public class ACRAReportSender implements ReportSender {
     @Override
     public void send(Context context, CrashReportData report)
             throws ReportSenderException {
+
+        s = PreferenceManager.getDefaultSharedPreferences(context);
 
         // Extract the required data out of the crash report.
         String reportBody = createCrashReport(context, report);
@@ -60,11 +67,9 @@ public class ACRAReportSender implements ReportSender {
                 .append("\n")
                 .append("App Version Name : " + report.getProperty(ReportField.APP_VERSION_NAME))
                 .append("\n")
-                .append("App username : " + PreferenceManager.getDefaultSharedPreferences(context).getString("preference_username", null))
-                .append("\n")
                 .append("User IP : " + report.getProperty(ReportField.USER_IP))
                 .append("\n")
-                .append("User Email : " + report.getProperty(ReportField.USER_EMAIL))
+                .append("User Email : " + s.getString(Constants.USER_EMAIL,"null"))
                 .append("\n\n")
                 .append("STACK TRACE : \n" + report.getProperty(ReportField.STACK_TRACE))
                 .append("\n\n")

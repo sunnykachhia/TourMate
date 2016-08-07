@@ -35,7 +35,7 @@ import adapters.City_info_adapter;
 public class CityInfo extends AppCompatActivity {
 
     SharedPreferences s ;
-    SharedPreferences.Editor e;
+    //SharedPreferences.Editor e;
     private ProgressDialog progressDialog;
     TwoWayView lvRest,lvShop, lvTour,lvhang;
     ProgressBar pb1,pb2,pb3,pb4;
@@ -64,7 +64,7 @@ public class CityInfo extends AppCompatActivity {
         city_info = (TextView) findViewById(R.id.city_info);
 
         s = PreferenceManager.getDefaultSharedPreferences(this);
-        e = s.edit();
+        //e = s.edit();
 
 
         try {
@@ -88,7 +88,7 @@ public class CityInfo extends AppCompatActivity {
 
         String tit = i.getStringExtra("name_");
         if(tit==null)
-            tit = s.getString(Constants.DESTINATION_CITY, "Delhi");
+            tit = s.getString(Constants.DESTINATION_CITY, "Bengaluru");
         setTitle(tit);
 
         getSupportActionBar().setHomeButtonEnabled(true);

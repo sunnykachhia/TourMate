@@ -30,6 +30,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 
 import Util.Constants;
@@ -46,7 +47,8 @@ public class TrainList extends AppCompatActivity implements com.fourmob.datetime
     SharedPreferences.Editor e;
     TextView city;
     TextView selectdate;
-    String dates="17-10";
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+    String dates= sdf.format(new Date());
     String source,dest;
     public static final String DATEPICKER_TAG = "datepicker";
     @Override

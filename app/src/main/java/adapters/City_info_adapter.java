@@ -91,10 +91,17 @@ public class City_info_adapter extends BaseAdapter {
 
                 Intent browserIntent = null;
                 try {
-                    browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps?q=" +
-                                    FeedItems.getJSONObject(position).getString("name") +
+                    System.out.println("google map link is: " + Uri.parse("https://www.google.com/maps?q=" +
+                            FeedItems.getJSONObject(position).getString("name") +
+                            "+(name)+@" +
+                            FeedItems.getJSONObject(position).getString("lat") +
+                            "," +
+                            FeedItems.getJSONObject(position).getString("lng")
+                    ));
+                    browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://maps.google.com/maps?daddr=" +
+                                    /*FeedItems.getJSONObject(position).getString("name") +
                                     "+(name)+@" +
-                                    FeedItems.getJSONObject(position).getString("lat") +
+                                    */FeedItems.getJSONObject(position).getString("lat") +
                                     "," +
                                     FeedItems.getJSONObject(position).getString("lng")
                     ));

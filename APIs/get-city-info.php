@@ -80,12 +80,17 @@
 		$weather_api_key = "655221df4dd542a5af5bca990d6f784d0f044dfd";
 		$date = date('Ymd', time());
 		$weather_url = 'http://api.dataweave.in/v1/indian_weather/findByCity/?api_key=' . $weather_api_key . '&city=' . ucfirst($city_name) . '&date=' . $date;
-		
+		$log->LogInfo("weather url is: ".$weather_url);
 		$weather_response = json_decode(curl_URL_call($weather_url), true);
+		foreach ($weather_response as $value) {
+			$log->LogInfo("weather response is: ".$value);
+		}
 		$response['weather'] = array(
 			'min'	=> (float)$weather_response['data'][0]['Minimum Temp'][0],
 			'max'	=> (float)$weather_response['data'][0]['Maximum Temp'][0],
 		);
-		
+		foreach ($response as $value) {
+			$log->LogInfo("response object is: ".$value);
+		}
 		echo json_encode($response);
 	}

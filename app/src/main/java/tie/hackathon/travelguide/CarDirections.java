@@ -47,9 +47,9 @@ public class CarDirections extends AppCompatActivity {
     Double distance;
     SharedPreferences s;
     SharedPreferences.Editor e;
-    TextView coste1, coste2, coste3, toll1, toll2, toll3, total1, total2, total3;
+    TextView coste1, coste2, coste3, toll1, toll2, toll3, total1, total2, total3, showdistance;
     Double cost1, cost2, cost3;
-    Double fuelprice = 60.00, mileage_hatchback = 30.0, mileage_sedan = 18.0, mileage_suv = 16.0;
+    Double fuelprice = 60.00, mileage_hatchback = 25.0, mileage_sedan = 15.0, mileage_suv = 10.0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +69,7 @@ public class CarDirections extends AppCompatActivity {
         surce = s.getString(Constants.SOURCE_CITY, "Delhi");
         dest = s.getString(Constants.DESTINATION_CITY, "MUmbai");
 
+        showdistance = (TextView) findViewById(R.id.distanceshow);
         coste1 = (TextView) findViewById(R.id.travelcost1);
         coste2 = (TextView) findViewById(R.id.travelcost2);
         coste3 = (TextView) findViewById(R.id.travelcost3);
@@ -187,7 +188,7 @@ public class CarDirections extends AppCompatActivity {
                 distance = routes.getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getDouble("value");
                 distancetext = routes.getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getString("text");
 
-
+                showdistance.setText("Total Cost for " + distancetext);
                 cost1 = (distance / mileage_hatchback) * fuelprice/1000;
                 cost2 = (distance / mileage_sedan) * fuelprice/1000;
                 cost3 = (distance / mileage_suv) * fuelprice/1000;

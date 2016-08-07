@@ -17,6 +17,7 @@
         android:layout_height="match_parent"/>
 
 <TextView
+    android:id="@+id/distanceshow"
     android:layout_marginTop="5dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -133,7 +134,7 @@
             android:layout_weight="1.0"
             android:layout_gravity="fill_horizontal"
             android:textSize="15sp"
-            android:text="Travel Cost"/>
+            android:text="Travel Cost(fuel price=60R/ltr)"/>
 
         <TextView
             android:textStyle="bold"

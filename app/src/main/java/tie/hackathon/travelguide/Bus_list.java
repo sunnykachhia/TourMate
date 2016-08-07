@@ -27,6 +27,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
 import com.fourmob.datetimepicker.date.DatePickerDialog;
 import com.fourmob.datetimepicker.date.DatePickerDialog.OnDateSetListener;
@@ -45,7 +46,8 @@ public class Bus_list extends AppCompatActivity implements OnDateSetListener, Ti
     TextView selectdate;
     TextView city;
     String source,dest;
-    String dates = "17-October-2015";
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MMMM-yyyy");
+    String dates= sdf.format(new Date());
     public static final String DATEPICKER_TAG = "datepicker";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
