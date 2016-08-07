@@ -1,5 +1,8 @@
 <?php
 	
+	require_once 'KLogger.php';
+	$log = new KLogger('/var/www/html/travel_mate/logs/log_login.txt',KLogger::DEBUG);
+
 	$error_messages = array(
 		'Incorrect Credentials',
 		'Success',

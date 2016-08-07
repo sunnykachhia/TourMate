@@ -1,4 +1,8 @@
 <?php
+
+	require_once 'KLogger.php';
+	$log = new KLogger('/var/www/html/travel_mate/logs/log_signup.txt',KLogger::DEBUG);
+
 	$error_messages = array(
 		'Email ID already Exists',
 		'Could Not Register, Try Again Later',

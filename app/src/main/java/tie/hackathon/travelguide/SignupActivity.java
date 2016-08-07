@@ -320,10 +320,13 @@ public class SignupActivity extends AppCompatActivity implements LoaderCallbacks
 
             try {
                 String uri = "http://119.9.109.45/travel_mate/signup.php?pass="+passwordStr+"&email="+emailStr+"&name="+name;
+                System.out.println("calling signup url: " + uri);
                 URL url = new URL(uri);
                 HttpURLConnection con = (HttpURLConnection) url.openConnection();
                 String readStream = Utils.readStream(con.getInputStream());
+                System.out.println("response is" + readStream+" ");
                 JSONObject ob = new JSONObject(readStream);
+                System.out.println("json object is" + ob+" ");
                 String success = ob.getString("success");
                 Log.e("response is",readStream+" ");
                 if(success.equals("true")){

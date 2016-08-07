@@ -1,5 +1,7 @@
 <?php
 
+	require_once 'KLogger.php';
+	$log = new KLogger('/var/www/html/travel_mate/logs/log_online-shopping.txt',KLogger::DEBUG);
 	$ebay_app_name = 'NSIT22619-c5e7-41ee-9311-cbde5b60ca2';
 	$url = 'http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsAdvanced&RESPONSE-DATA-FORMAT=JSON&SECURITY-APPNAME=' . $ebay_app_name . '&REST-PAYLOAD&keywords=';
 	

@@ -1,5 +1,7 @@
 <?php
 
+	require_once 'KLogger.php';
+	$log = new KLogger('/var/www/html/travel_mate/logs/log_city_facts.txt',KLogger::DEBUG);
 	require_once 'inc/connection.inc.php';
 	
 	$final_response = array();

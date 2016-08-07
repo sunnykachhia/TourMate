@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         name = (TextView) findViewById(R.id.name);
         email = (TextView) findViewById(R.id.email);
 
-        name.setText(s.getString(Constants.USER_NAME,"Swati Garg"));
-        email.setText(s.getString(Constants.USER_EMAIL,"swati4star@gmail.com"));
+        name.setText(s.getString(Constants.USER_NAME,"Sunny Kachhia"));
+        email.setText(s.getString(Constants.USER_EMAIL,"sunny.kachhia@yahoo.com"));
 
 
 
