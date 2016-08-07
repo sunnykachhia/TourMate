@@ -47,7 +47,7 @@ public class CarDirections extends AppCompatActivity {
     Double distance;
     SharedPreferences s;
     SharedPreferences.Editor e;
-    TextView coste1, coste2, coste3, toll1, toll2, toll3, total1, total2, total3, showdistance;
+    TextView coste1, coste2, coste3, toll1, toll2, toll3, total1, total2, total3, showdistance, mileage1, mileage2, mileage3;
     Double cost1, cost2, cost3;
     Double fuelprice = 60.00, mileage_hatchback = 25.0, mileage_sedan = 15.0, mileage_suv = 10.0;
 
@@ -70,6 +70,9 @@ public class CarDirections extends AppCompatActivity {
         dest = s.getString(Constants.DESTINATION_CITY, "MUmbai");
 
         showdistance = (TextView) findViewById(R.id.distanceshow);
+        mileage1 = (TextView) findViewById(R.id.mileage1);
+        mileage2 = (TextView) findViewById(R.id.mileage2);
+        mileage3 = (TextView) findViewById(R.id.mileage3);
         coste1 = (TextView) findViewById(R.id.travelcost1);
         coste2 = (TextView) findViewById(R.id.travelcost2);
         coste3 = (TextView) findViewById(R.id.travelcost3);
@@ -188,11 +191,14 @@ public class CarDirections extends AppCompatActivity {
                 distance = routes.getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getDouble("value");
                 distancetext = routes.getJSONArray("legs").getJSONObject(0).getJSONObject("distance").getString("text");
 
-                showdistance.setText("Total Cost for " + distancetext);
+                showdistance.setText("Total Cost for " + distancetext + " @ 60R/ltr fuel");
                 cost1 = (distance / mileage_hatchback) * fuelprice/1000;
                 cost2 = (distance / mileage_sedan) * fuelprice/1000;
                 cost3 = (distance / mileage_suv) * fuelprice/1000;
 
+                mileage1.setText(mileage_hatchback.toString());
+                mileage2.setText(mileage_sedan.toString());
+                mileage3.setText(mileage_suv.toString());
                 coste1.setText(cost1.intValue() + "");
                 coste2.setText(cost2.intValue() + "");
                 coste3.setText(cost3.intValue() + "");

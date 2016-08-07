@@ -95,33 +95,33 @@
             android:text="Mileage"/>
 
         <TextView
+            android:id="@+id/mileage1"
             android:textStyle="bold"
             android:padding="10dp"
             android:layout_weight="1.0"
             android:layout_column="1"
             android:layout_gravity="fill_horizontal"
             android:layout_row="1"
-            android:textSize="15sp"
-            android:text="22"/>
+            android:textSize="15sp" />
         <TextView
+            android:id="@+id/mileage2"
             android:textStyle="bold"
             android:layout_weight="1.0"
             android:layout_column="2"
             android:layout_row="1"
             android:padding="10dp"
             android:layout_gravity="fill_horizontal"
-            android:textSize="15sp"
-            android:text="18"/>
+            android:textSize="15sp" />
 
         <TextView
+            android:id="@+id/mileage3"
             android:textStyle="bold"
             android:layout_column="3"
             android:layout_row="1"
             android:padding="10dp"
             android:layout_weight="1.0"
             android:layout_gravity="fill_horizontal"
-            android:textSize="15sp"
-            android:text="16"/>
+            android:textSize="15sp" />
 
 
 
@@ -134,7 +134,7 @@
             android:layout_weight="1.0"
             android:layout_gravity="fill_horizontal"
             android:textSize="15sp"
-            android:text="Travel Cost(fuel price=60R/ltr)"/>
+            android:text="Travel Cost"/>
 
         <TextView
             android:textStyle="bold"

@@ -147,7 +147,7 @@ public class city_fragment extends Fragment {
                 List<Friend> friends = new ArrayList<>();
                 for(int i=0;i<ar.length();i++){
 
-
+                    System.out.println("array item is: " + ar.get(i));
                     double color = Math.random();
                     int c = (int)(color*100)%8;
                     int d = (int)(color*100)%2;
@@ -157,7 +157,7 @@ public class city_fragment extends Fragment {
                     if(d==1)
                         draw = R.drawable.delhi;
                     else
-                    draw = R.drawable.goa;
+                        draw = R.drawable.goa;
 
                     int colo;
                     switch (c){
