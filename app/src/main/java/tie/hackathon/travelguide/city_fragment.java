@@ -147,7 +147,9 @@ public class city_fragment extends Fragment {
                 List<Friend> friends = new ArrayList<>();
                 for(int i=0;i<ar.length();i++){
 
-                    System.out.println("array item is: " + ar.get(i));
+                    JSONObject jo = (JSONObject) ar.get(i);
+                    String imageName = jo.getString("image").split("/")[-1];
+                    System.out.println("image name is: " + imageName);
                     double color = Math.random();
                     int c = (int)(color*100)%8;
                     int d = (int)(color*100)%2;
